@@ -1,4 +1,7 @@
 A3XAI - Current Version: 0.2.2
+
+FIXED :  CBA compability with weapon scopes,muzzles etc.
+
 =====
 Updated to include vehicle loot and paratrooper reinforcements by Porkeld
 ---
