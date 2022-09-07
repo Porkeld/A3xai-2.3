@@ -27,6 +27,8 @@ a3xai_config\a3xai_custom_defs.sqf          //  Added detailed instructions with
 
 a3xai_config\config.cpp                     //  Added "airCargoUnits" variable at line 325 - it is set to 2 by default so make sure you change this to 0 if you don't want AI passengers!
 
+a3xai\compile\A3XAI_unit_spawning\A3XAI_createUnit.sqf  //  I have commented out part which add money on AI so if you want this back, remove the block comment that starts at line 17
+
 =====
 
 A3XAI - Version: 0.2.3
