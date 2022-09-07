@@ -1,3 +1,9 @@
+A3XAI - Version: 0.2.4
+
+FIXED :  Vehicles appearing in custom blacklisted areas
+
+=====
+
 A3XAI - Version: 0.2.3
 
 FIXED :  CBA compability with weapon scopes,muzzles etc.
