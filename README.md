@@ -1,7 +1,19 @@
 A3XAI - Version: 0.2.4
 
 FIXED :  Vehicles appearing in custom blacklisted areas
+ADDED : You can now set the max number of AI passengers inside air vehicles
 
+To update from 0.2.3, replace following files:
+a3xai\init\loadSettings.sqf                 //  Included airCargoUnits
+a3xai\init\A3XAI_custom_loader.sqf          //  Added 30 second timer to give script time for setting up Blacklist zones before it attempts to spawn vehicles
+a3xai\scripts\setup_veh_patrols.sqf         //  Added "waitUntil {uiSleep 0.3; (!isNil "A3XAI_customSpawnsReady")};" at line 4
+a3xai\compile\A3XAI_unit_spawning\A3XAI_spawnVehiclePatrol.sqf          //  Added above + condition for blacklisted areas
+a3xai\compile\A3XAI_utilities\A3XAI_fixStuckGroup.sqf                   //  Added condition for blacklisted areas
+a3xai\compile\A3XAI_group_functions\A3XAI_generateLootOnDeath.sqf       //  replaced "magazines" with "magazine" (code expects string)
+
+And also compare and add few lines from following files:
+a3xai_config\a3xai_custom_defs.sqf          //  Added detailed instructions with examples on how to create custom spawns.
+a3xai_config\config.cpp                     //  Added "airCargoUnits" variable at line 325 - it is set to 2 by default so make sure you change this to 0 if you don't want AI passengers!
 =====
 
 A3XAI - Version: 0.2.3
