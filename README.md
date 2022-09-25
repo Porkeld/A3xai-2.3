@@ -1,3 +1,5 @@
+WARNINIG: I just received a report that this code does not seem to work with Headless Client. Be sure to backup your previous A3XAI before installing this!
+
 A3XAI - Version: 0.2.4
 
 FIXED :  Vehicles appearing in custom blacklisted areas
