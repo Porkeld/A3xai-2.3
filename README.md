@@ -1,6 +1,6 @@
-Note that for the newest version to work you need to open a3xai_config.sqf and set A3XAI_loadCustomFile = true; in  Otherwise it won’t work correctly.
+**Note that for the newest version to work you need to open a3xai_config.sqf and set A3XAI_loadCustomFile = true; in  Otherwise it won’t work correctly.**
 
-For HC to work make sure that you have a excact copy of a3xai.pbo in @A3XAI_HC/addons
+**For HC to work make sure that you have a excact copy of a3xai.pbo in @A3XAI_HC/addons**
 
 A3XAI - Version: 0.2.4
 
